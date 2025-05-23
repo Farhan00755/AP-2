@@ -43,10 +43,10 @@ int main () {
 
     //switch case statement
     // switch (nilai) {
-    //     case 1: // jika nilai 1
+    //     case 1: // jika nilai sama dengan 1
     //         cout << "Senin" << endl;
     //         break;
-    //     case 2: // jika nilai 2 dan seterusnya
+    //     case 2: // jika nilai sama dengan 2 dan seterusnya
     //         cout << "Selasa" << endl;
     //         break;
     //     case 3:
@@ -88,6 +88,6 @@ int main () {
     // }
     
     //a > 5 ? 9 : 6 // jika a lebih besar dari 5 maka 9 jika lebih kecil maka 6
-    // string chekNum = (nilai % 2 == 0) ? "Genap" : "Ganjil";
+    // string chekNum = (nilai % 2 == 0) ? "Genap" : "Ganjil"; // jika sisa bagi dari nilai mod 2 sama dengan 0 maka cheknum genap jika tidak maka cheknum ganjil
     // cout << nilai << " tuh bilangan " << chekNum << " sih " << endl;
 }    
