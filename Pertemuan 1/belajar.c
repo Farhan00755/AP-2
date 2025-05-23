@@ -15,7 +15,7 @@ int main() {
     printf("Masukkan nim : ");
     scanf("%d", &nim); // fungsi masukan pada C
 
-    getchar();
+    getchar(); // perintah untuk memasukkan data char
 
     printf("Masukkan kom : ");
     gets(kom); 
@@ -34,5 +34,5 @@ int main() {
     printf("IP : %f\n", ip);
 
     printf("press any button to continue...");
-    getch(); 
+    getch(); // perintah yang digunakan untuk memasukkan 1 karakter tanpa menekan enter dan karakter yang diketik tidak akan tampil di layar
 }
