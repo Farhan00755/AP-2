@@ -3,7 +3,7 @@ using namespace std;
 
 int main () {
     system("cls");
-    float V, Lp, r;
+    float V, Lp, r; // deklarasi variabel dan type datanya
 
     cout << "masukkan jari-jari : ";
     cin >> r;
