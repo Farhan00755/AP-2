@@ -7,9 +7,9 @@ int main() {
     // hello world, Fasilkom-TI, Ilmu Komputer, IKLC
     // -> hello world, iklc, ilmu komputer, fasilkom-ti
     
-    // a:
+    // a: // lokasi tujuan label dibawah
     //     cout << "hello world" << endl;
-    //     goto d;
+    //     goto d; // lokasi yang ingin dituju
     // b:
     //     cout << "fasilkom-ti" << endl;
     //     return 0;
@@ -33,7 +33,7 @@ int main() {
 
     // statement while 
     // int i = 1;
-    // while (i <= 10) {
+    // while (i <= 10) { // selama i lebih kecil sama dengan 10 maka perintah dibawah akan berjalan jika tidak memnuhi maka berhenti
     //     if (i % 2 == 0){
     //         cout << i << " ";
     //     } i++;
@@ -43,26 +43,26 @@ int main() {
     // int i = 1;
     // do {
     //     cout << i << endl;
-    // } while ( i <= 0);
+    // } while ( i <= 0); // statement ini akan menjalankan looping minimal sekali walaupun syaratnya tidak terpenuhi
 
     // statement for
-    // for (inisialisasi, kondisi, increment)
-    // for (int i = 1; i <= 10; i+=2) {
+    // for (inisialisasi, kondisi, increment) // tata cara penulisan looping for seperti dibahawnya
+    // for (int i = 1; i <= 10; i+=2) { // looping akan berjalan selama i kecil sama dengan 0 
     //     cout << "Hello World" << endl; // i = i + 2
     // }
 
-    // nested for
+    // nested for // nested for adalah for bertingkat jadi didalam loop for ada loop for lagi
     // ***** 5 X 5
-    // for ( int  i = 1; i <= 5; i++) {
-    //     for (int j = 1; j <= 5; j++) {
+    // for ( int  i = 1; i <= 5; i++) { // looping akan berjalan 5 kali
+    //     for (int j = 1; j <= 5; j++) { // looping akan mencetak bintang selama lima kali
     //         cout << "* ";
     //     }
-    //     cout << endl;
-    // }
+    //     cout << endl; // setelah mencetak 5 bintang endl akan menurunkan linenya agar pencetakan bintang selanjutnya berada dibawah bintang sebelumnya 
+    // } // pada looping berikut akan membuat persegi bintang lima kali lima
 
     // segitiga siku - siku
-    // for  (int i = 1; i <= 5; i++) {
-    //     for (int j = 1; j <= i; j ++) {
+    // for  (int i = 1; i <= 5; i++) { // looping akan berjalan 5 kali
+    //     for (int j = 1; j <= i; j ++) { // looping akan berjalan sampai j lebih kecil atau sama dengan i
     //         cout << "* ";
     //     }
     //     cout << endl;
