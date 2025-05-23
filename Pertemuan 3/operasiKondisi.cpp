@@ -10,21 +10,21 @@ int main () {
     cin >> nilai;
 
     //untuk if statement
-    // if (nilai <= 65) {
+    // if (nilai <= 65) { // jika nilai lebih kecil sama dengan 65 maka perintah dibawah berjalan
     //     cout << "Anda tidak lulus" << endl;
     // }
     
     // if - else statement
-    // if (nilai <= 65) {
+    // if (nilai <= 65) { // jika nilai lebih kecil sama dengan 65 maka perintah dibawah berjalan
     //     cout << "Anda tidak lulus!" << endl;
-    // } else {
+    // } else { // jika tidak memenuhi syarat diatas 
     //     cout << "Anda lulus!" << endl;
     // }
 
     //if - else if - else statement
-    // if (nilai == 100) {
+    // if (nilai == 100) { // jika nilai sama dengan 100 maka perintah dibawah berjalan
     //     cout << "Anda keceh" << endl;
-    // } else if (nilai <= 65) {
+    // } else if (nilai <= 65) { // jika nilai lebih kecil sama dengan 65
     //     cout << "Anda tidak lulus!" << endl;
     // } else {
     //     cout << "Anda lulus!" << endl;
