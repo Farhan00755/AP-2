@@ -43,10 +43,10 @@ int main () {
 
     //switch case statement
     // switch (nilai) {
-    //     case 1:
+    //     case 1: // jika nilai 1
     //         cout << "Senin" << endl;
     //         break;
-    //     case 2:
+    //     case 2: // jika nilai 2 dan seterusnya
     //         cout << "Selasa" << endl;
     //         break;
     //     case 3:
@@ -71,7 +71,7 @@ int main () {
 
     // switch range statement
     // switch (nilai) {
-    //     case 85 ... 100: cout << "A" << endl; break;
+    //     case 85 ... 100: cout << "A" << endl; break; // jika nilai diantara 84 sampai 101 dan seterusnya
     //     case 80 ... 84: cout << "B+" << endl; break;
     //     case 75 ... 79: cout << "B" << endl; break;
     //     case 70 ... 74: cout << "c+" << endl; break;
@@ -87,7 +87,7 @@ int main () {
     //     cout <<  "Ganjil sih" << endl;
     // }
     
-    //a > 5 ? 9 : 6
+    //a > 5 ? 9 : 6 // jika a lebih besar dari 5 maka 9 jika lebih kecil maka 6
     // string chekNum = (nilai % 2 == 0) ? "Genap" : "Ganjil";
     // cout << nilai << " tuh bilangan " << chekNum << " sih " << endl;
 }    
