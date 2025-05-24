@@ -13,12 +13,12 @@ int main() {
     cin >> sandi;
 
     // Membuat string "expected" berdasarkan pola tertentu
-    for (int i = 0; i < password.length(); i++) {
-        expected += password.substr(0, i + 1);
+    for (int i = 0; i < password.length(); i++) { // loop akan berjalan sampai i lebih kecil dari panjang password contoh tes maka panjang password 3
+        expected += password.substr(0, i + 1); // contoh jika i == 0 maka expected t, jika i == 1 maka expected menjadi tte dan seterusnya
     }
 
     // Mengecek apakah input kedua sesuai dengan pola yang diharapkan
-    if (expected == sandi) {
+    if (expected == sandi) { // mengecek apakah yang diinput user sama dengan yang expected
         cout << "Tulisan agen benar" << endl;
     } else {
         cout << "Tulisan agen salah" << endl;
