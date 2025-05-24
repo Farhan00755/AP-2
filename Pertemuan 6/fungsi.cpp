@@ -7,7 +7,7 @@ void tampilkanPesan() {
 }
 
 // fungsi dengan nilai balikan adalah fungsi yang memiliki nilai untuk diambil / dikembalikan ke dalam program utama
-int tambah(int a, int b) {
+int tambah(int a, int b) { // parameter formal
     return a + b;
 }
 
@@ -38,7 +38,7 @@ int main() {
     int x = 5, y = 3;
 
     // menggunakan fungsi dengan nilai balikan 
-    int hasilTambah = tambah(x, y); // setelah dikembalikan dari fungsi nilainya dimasukkan kedalam variabel 
+    int hasilTambah = tambah(x, y); // setelah dikembalikan dari fungsi nilainya dimasukkan kedalam variabel (fungsi dipanggil dengan parameter aktual)
     cout << "Hhasil penjumlahan : " << hasilTambah << endl;
 
     // menggunakan fungsi overload
