@@ -1,5 +1,5 @@
 #include <stdio.h> // header untuk C
-#include <conio.h>
+#include <conio.h> // header untuk getch() atau getche()
 
 int main() {
     char nama[50];
