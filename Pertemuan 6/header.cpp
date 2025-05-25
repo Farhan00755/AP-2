@@ -22,4 +22,5 @@ int main() {
     double akar = sqrt(angka);
 
     cout << "Akar kuadrat dari " << angka << " adalah : " << akar << e;
+    
 }
