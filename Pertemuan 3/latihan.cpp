@@ -17,4 +17,5 @@ int main() {
     } else { // jika tidak memenuhi ketiga syarat diatas
         cout << "Bilangan " << bil << " bukan kelipatan 5 atau 10" << endl;
     }
+    
 }
