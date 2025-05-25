@@ -19,4 +19,5 @@ int main() {
     cout << "Hasil: " << kalimat << endl;
 
     return 0;
+    
 }
