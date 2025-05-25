@@ -49,5 +49,4 @@ int main() {
 
     turunan tur; // deklarasi variabel tur dengan tipe data turunan dari kelas 
     tur.aksesProtected(); // memanggil kelas turunan
-
 }
