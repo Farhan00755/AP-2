@@ -52,4 +52,5 @@ int main() {
     // menggunakan fungsi rekursif
     int angka = 5;
     cout << "Faktorial dari " << angka << " adalah : " << faktorial(angka) << endl; // menjalankan fungsi refursif dan ditampilkan
+    
 }
