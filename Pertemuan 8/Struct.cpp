@@ -58,4 +58,5 @@ int main() {
         cout << "IPK : " << mahasiswa[i].ipk << endl;
         cout << endl;
     }
+    
 }
