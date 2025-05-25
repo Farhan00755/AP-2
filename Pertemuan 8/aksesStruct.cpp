@@ -25,6 +25,5 @@ int main() {
     cout << "Nama = " << ptrMhs->nama << endl; // tata cara pemanggilan struct dengan pointer dengan menggunakan garis panah ->
     cout << "Umur = " << ptrMhs->umur << endl;
     cout << "ipk = " << ptrMhs->ipk << endl;
-
     
 }
