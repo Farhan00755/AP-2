@@ -81,5 +81,4 @@ int main() {
     
     delete ptr; // menghapus memory yang telah dibuat sebelumnya pada new int
     cout << "isi variabel ptr = " << *ptr << " dan alamat  " << &ptr << endl;
-    
 }
