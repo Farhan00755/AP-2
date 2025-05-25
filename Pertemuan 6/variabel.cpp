@@ -21,5 +21,4 @@ int main() {
 
     // coba akses variabel lokal 
     // cout << namaLokal << endl; // ora iso
-
 }
